@@ -1,13 +1,14 @@
 {
-  "name": "ag",
+  "name": "git-history-data-experiment",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small experiment for reading timestamped JSON data and reporting simple age information.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node --test"
   },
-  "keywords": [],
+  "keywords": ["git", "data", "experiment"],
   "author": "",
   "license": "ISC",
   "dependencies": {
